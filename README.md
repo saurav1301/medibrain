@@ -44,27 +44,30 @@ flutter pub get
 
 # 4. Run app
 flutter run
-Change URL in one place only:
+
+```
+
+## Change URL in one place only:
 lib/core/constants.dart → update BASE_URL
-Note
+- Note
 This is a personal project I built to learn full-stack AI apps.
 I took help from ChatGPT and Grok to:
 
-Fix bugs
-Improve animations
-Structure code better
-Learn advanced RAG concepts
+## Fix bugs
+- Improve animations
+- Structure code better
+- Learn advanced RAG concepts
 
-But the entire logic, design, architecture, and code is written and understood by me.
-Made by
-saurav negi
-Flutter + Python Developer
-Open to opportunities
-Looking for Flutter / Full-Stack / AI-ML roles
-Email: saurav.negi1301@gmail.com | Phone: +91 XXXXXXXXXX
+- But the entire logic, design, architecture, and code is written and understood by me.
+# Made by
+- saurav negi
+- Flutter + Python Developer
+- Open to opportunities
+- Looking for Flutter / Full-Stack / AI-ML roles
+- Email: saurav.negi1301@gmail.com | Phone: +91 XXXXXXXXXX
 
-Thank you for checking out my project!
-text### Folder setup (do this now):
+## Thank you for checking out my project!
+### Folder setup (do this now):
 your-project/
 ├── images/
 │   ├── splash.gif
