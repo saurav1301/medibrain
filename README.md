@@ -68,6 +68,7 @@ I took help from ChatGPT and Grok to:
 
 ## Thank you for checking out my project!
 ### Folder setup (do this now):
+```bash
 your-project/
 ├── images/
 │   ├── splash.gif
