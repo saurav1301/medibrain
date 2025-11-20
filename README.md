@@ -69,9 +69,23 @@ I took help from ChatGPT and Grok to:
 ## Thank you for checking out my project!
 ### Folder setup (do this now):
 ```bash
-your-project/
-├── images/
-│   ├── splash.gif
-│   └── chat.gif
-├── lib/
-├── README.md
+lib/
+├── core/
+│   ├── constants.dart     ← BASE_URL lives here
+│   ├── theme/
+│   │   └── app_theme.dart
+│   └── services/
+│       └── api_service.dart
+├── features/
+│   └── chat/
+│       ├── data/   ← models, api calls
+│       │   └── chat_response.dart
+│       ├── presentation/
+│       │   ├── screens/chat_screen.dart
+│       │   └── widgets/
+│       │       ├── message_bubble.dart
+│       │       └── typing_indicator.dart
+│       └── logic/chat_provider.dart
+├── widgets/
+│   └── animated_splash.dart
+└── main.dart
